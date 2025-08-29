@@ -1,11 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Button } from '@/components/ui/button'
-import logo from '@/assets/logo.svg'
-import { RouterLink, useRouter } from 'vue-router'
-import { LucideAtSign, LucideWind, LucideZap } from 'lucide-vue-next'
-
-const router = useRouter()
+import { LucideAtSign } from 'lucide-vue-next'
 
 const isMobileMenuOpen = ref(false)
 
